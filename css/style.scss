@@ -266,8 +266,23 @@ footer {
 
   .figuur3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .figuur3 > div:nth-child(1) {
+    background-color: #b3001b;
+    grid-row: 1;
+  }
+  .figuur3 > div:nth-child(2) {
+    background-color: #f4e04d;
+    grid-row: 2;
+  }
+  .figuur3 > div:nth-child(3) {
+    background-color: #54f2f2;
+    grid-row: 3;
+  }
+  .figuur3 > div:nth-child(4) {
+    background-color: #5eb1bf;
+    grid-row: 4;
   }
   .figuur4 {
     display: grid;
