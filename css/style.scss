@@ -301,4 +301,23 @@ footer {
     grid-row: 3/3;
     grid-column: 1/4;
   }
+  nav :nth-child(1) {
+    display: revert;
+  }
+  nav :nth-child(2) {
+    display: revert;
+  }
+  nav :nth-child(3) {
+    display: revert;
+  }
+  nav :nth-child(4) {
+    display: revert;
+  }
+  .mobiel {
+    display: none;
+  }
+  nav a {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 }
