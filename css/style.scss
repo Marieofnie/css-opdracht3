@@ -16,8 +16,9 @@
   box-sizing: border-box;
 }
 body {
-  background-color: $bggrey;
+  background-color: white;
   font-family: Roboto, sans-serif;
+
   * {
     line-height: calc(2px + 2ex + 2px);
   }
@@ -85,4 +86,128 @@ body {
     background-color: #ec058e;
   }
   /* alle kleuren voor dit vlak: #FF715B  #30332E  #62BBC1  #EC058E */
+}
+h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+nav {
+  right: 0;
+  top: auto;
+  bottom: 0;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+nav :nth-child(1) {
+  display: none;
+}
+nav :nth-child(2) {
+  display: none;
+}
+nav :nth-child(3) {
+  display: none;
+}
+nav :nth-child(4) {
+  display: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: flex-end;
+}
+.billboard {
+  background-image: url("images/achtergrond-nacht.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  p {
+    font-style: italic;
+    font-size: 12px;
+  }
+}
+.overons {
+  padding: 10px;
+}
+.hoofding {
+  h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  p {
+    font-style: italic;
+    font-size: 12px;
+  }
+}
+section {
+  margin-top: 10px;
+  h3 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+  input {
+    color: white;
+    background-color: black;
+    font-size: smaller;
+    border-radius: 4px;
+  }
+}
+.watwedoen {
+  padding: 10px;
+  h3 {
+    margin-bottom: 10px;
+  }
+}
+.figuur1 {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.figuur2 {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.figuur3 {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.figuur4 {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+footer {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  div {
+    font-size: 20px;
+  }
+  ul li {
+    display: inline;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
